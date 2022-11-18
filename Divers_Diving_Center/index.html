@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-animation">
+        <header>
+            <div class="main">
+                <div class="container">
+                    <div class="head">
+                        <div class="contactLogo">
+                            <div class="contact">
+                               <ul>
+                                   <li> 
+                                       <span>Call us:</span>
+                                        <a href="tel: +1 (844) 123 456 78"> +1 (844) 123 456 78</a>
+                                    </li>
+                                    <li>
+                                        <a href="email:info@demolink.org">info@demolink.org</a>
+                                    </li>
+                               </ul>
+                            </div>
+                            <div class="logo">
+                                <img src="images/logo.png" alt="logo" class="logoImg1">
+                                <img src="images/logo2.png" alt="logo" class="logoImg2"> 
+                            </div>
+                        </div>
+                        <div class="lang_search">
+                            <button class="search_btn" id="searchBtn">
+                                <span class="search_btn-close">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </button>
+                                <button class="search_btn" id="searchOpen">
+                                    <span class="search_btn-open">
+                                        &#10006;
+                                    </span>
+                                </button>
+                            <form action="#" method="get" class="header-search">
+                                <div class="form-wrap">
+                                    <input type="text" name="search" id="search" placeholder="Search...">
+                                    <button type="submit" class="form-search"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                            <div class="langcheg">
+                                <select name="changeLanguage" id="changeLanguage">
+                                    <option value="en">en</option>
+                                    <option value="fr">fr</option>
+                                    <option value="es">es</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu_item active"><a href="index.html">Home</a>
+                            </li>
+                            <li class="menu_item"><a href="#">Pages</a>
+                              <!-- RD Navbar Dropdown-->
+                              <ul class="pages_dropdown">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="what-we-offer.html">What We Offer</a></li>
+                                <li><a href="our-team.html">Our Team</a></li>
+                                <li><a href="testimonials.html">Testimonials</a></li>
+                                <li><a href="pricing-list.html">Pricing List</a></li>
+                              </ul>
+                            </li>
+                            <li class="menu_item"><a href="grid-blog.html">Blog</a>
+                              <!-- RD Navbar Dropdown-->
+                              <ul class="blog_dropdown">
+                                <li><a href="grid-blog.html">Grid Blog</a></li>
+                                <li><a href="blog-list.html">Blog List</a></li>
+                                <li><a href="blog-post.html">Blog Post</a></li>
+                              </ul>
+                            </li>
+                            <li class="menu_item"><a  href="grid-gallery.html">Gallery</a><span class="rd-navbar-submenu-toggle"></span>
+                              <!-- RD Navbar Dropdown-->
+                              <ul class="grid_dropdown">
+                                <li><a href="#">Grid Gallery</a></li>
+                                <li><a href="grid-fullwidth-gallery.html">Grid Fullwidth Gallery</a></li>
+                                <li><a href="masonry-gallery.html">Masonry Gallery</a></li>
+                                <li><a href="masonry-fullwidth-gallery.html">Masonry Fullwidth Gallery</a></li>
+                              </ul>
+                            </li>
+                            <li class="menu_item"><a class="rd-nav-link" href="#">Elements</a><span class="rd-navbar-submenu-toggle"></span>
+                              <!-- RD Navbar Megamenu-->
+                              <ul class="elements_dropdown">
+                                <li>
+                                  <div class="elements_dropdown-title">
+                                      <span class="elements_dropdown-icon mdi mdi-apps"></span>
+                                      <span class="elements_dropdown-text">Elements</span>
+                                    </div>
+                                  <ul class="elements_dropdown_menu">
+                                    <li><a href="typography.html">Typography</a></li>
+                                    <li><a href="icon-lists.html">Icon lists</a></li>
+                                    <li><a href="progress-bars.html">Progress bars</a></li>
+                                    <li><a href="calls-to-action.html">Calls to action</a></li>
+                                    <li><a href="tabs-and-accordions.html">Tabs &amp; accordions</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="tables.html">Tables</a></li>
+                                    <li><a href="forms.html">Forms</a></li>
+                                    <li><a href="counters.html">Counters</a></li>
+                                    <li><a href="grid-system.html">Grid system</a></li>
+                                  </ul>
+                                </li>
+                                <li class="menu_item_additional_dropdown">
+                                  <div class="additionalPages_dropdown-title">
+                                      <span class="additionalPages_dropdown-icon mdi mdi-layers"></span>
+                                      <span class="rd-megamenu-text">Additional pages</span>
+                                    </div>
+                                  <ul class="additionalPages_dropdown">
+                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404 Page</a></li>
+                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="coming-soon.html">Coming Soon</a></li>
+                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="search-results.html">Search Results</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="menu_item"><a class="rd-nav-link" href="contact-us.html">Contacts</a>
+                            </li>
+                          </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="top-slider">
+               <div class="t-slider">
+                <div class="top-item">
+                    <div class="slider-info a">
+                        <h1>Enjoy Scuba <br>  Diving With Us</h1>
+                        <p>We offer a wide variety of scuba diving tours and locations for everyone.</p>
+                        <div class="read_more">
+                            <button class="b1 b2">READ MORE</button>
+                        </div>
+                    </div>
+               </div>
+               <div class="top-item">
+                <div class="slider-info b">
+                    <h1>Enjoy Scuba <br>  Diving With Us</h1>
+                    <p>We offer a wide variety of scuba diving tours and locations for everyone.</p>
+                    <div class="read_more">
+                        <button class="b1 b2">READ MORE</button>
+                    </div>
+                </div>
+           </div>
+        </div>
+            <button class="btn prev" id="prev">prev</button>
+            <button class="btn next" id="next">next</button>
+        </div>
+    </div>
+    <section id="destinations">
+       <div class="container">
+           <h3>Destinations</h3>
+            <div class="content">
+                <div class="content-item">
+                    <a href="#" class="box_info">
+                        <img src="images/about/about-1.jpg" alt="img">
+                    </a>
+                    <h4>
+                        <a href="#">Maldives</a>
+                    </h4>
+                    <span>True abundance of marine life</span>
+                    <div class="book_now">
+                        <a href="#" class="about_btn">BOOK NOW</a>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <a href="#" class="box_info">
+                        <img src="images/about/about-2.jpg" alt="img">
+                    </a>
+                    <h4>
+                        <a href="#">Indonesia</a>
+                    </h4>
+                    <span>Unique marine diversity</span>
+                    <div class="book_now">
+                        <a href="#" class="about_btn">BOOK NOW</a>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <a href="#" class="box_info">
+                        <img src="images/about/about-3.jpg" alt="img">
+                    </a>
+                    <h4>
+                        <a href="#">Australia</a>
+                    </h4>
+                    <span>The world’s top scuba destination</span>
+                    <div class="book_now">
+                        <a href="#" class="about_btn">BOOK NOW</a>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+    <section id="description">
+        <div class="container">
+            <div class="row">
+                <div class="row-item">
+                    <div class="item n">
+                        <div class="row-item-info">
+                            <div class="unit-right">
+                                <h4><a href="#">Best Equipment</a></h4>
+                                <p class="box-icon-classic-text">
+                                    Our agency provides  first-class equipment for all our clients, regardless of their level.
+                                </p>
+                            </div>
+                            <div class="unit-left">
+                                <div class="img">
+                                    <img src="images/description/descr-icon-1.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-item-info">
+                            <div class="unit-right">
+                                <h4><a href="#">Exciting Places</a></h4>
+                                <p class="box-icon-classic-text">
+                                    We offer a variety of destinations including the most exotic ones located all over the world.                                </p>
+                            </div>
+                            <div class="unit-left">
+                                <div class="img">
+                                    <img src="images/description/descr-icon-2.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-item"></div>
+                <div class="row-item">
+                    <div class="item m">
+                        <div class="row-item-info">
+                            <div class="unit-left">
+                                <div class="img">
+                                    <img src="images/description/descr-icon-3.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="unit-right">
+                                <h4><a href="#">100% Safety</a></h4>
+                                <p class="box-icon-classic-text">
+                                    We pay a lot of attention to divers’ safety at all times, as there’s always some risk involved in it.                                </p>
+                            </div>
+                        </div>
+                        <div class="row-item-info">
+                            <div class="unit-left">
+                                <div class="img">
+                                    <img src="images/description/descr-icon-4.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="unit-right">
+                                <h4><a href="#">Instructors</a></h4>
+                                <p class="box-icon-classic-text">
+                                    We are a team of talented and experienced diving instructors always ready to help you.                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="choose-divers">
+        <div class="container">
+            <div class="row">
+                <div class="left_item">
+                    <div class="img"></div>
+                    <div class="dots">
+                        <input type="radio" name="dot" checked>
+                        <input type="radio" name="dot">
+                        <input type="radio" name="dot">
+                    </div>
+                </div>
+                <div class="right_item">
+                    <h3>Why Choose Divers</h3>
+                    <div class="right_item_info">
+                        <div class="card-title">
+                            <a href="#cardArrow"> 
+                                <div class="card-arrow" id="cardArrowExperience">
+                                    <div class="icon"></div>
+                                    <span>20+ Years of Experience in Diving</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="careText">
+                            <p>Our experienced team of Diving Professionals all have over 15 years of diving experience and have been professionally certified. Our team includes the most experienced SSI instructors in the world who are always happy to help you.</p>
+                        </div>
+                        <div class="card-title">
+                            <a href="#cardArrow">
+                                <div class="card-arrow" id="cardArrowCarefully">
+                                    <div class="icon"></div>
+                                    <span>Carefully Chosen Team of Instructors</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="careText">
+                            <p>Our experienced team of Diving Professionals all have over 15 years of diving experience and have been professionally certified. Our team includes the most experienced SSI instructors in the world who are always happy to help you.</p>
+                        </div>
+                        <div class="card-title">
+                            <a href="#cardArrow">
+                                <div class="card-arrow">
+                                    <div class="icon"></div>
+                                    <span>Affordable Prices</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="careText">
+                            <p>Our experienced team of Diving Professionals all have over 15 years of diving experience and have been professionally certified. Our team includes the most experienced SSI instructors in the world who are always happy to help you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-item">
+                <div class="item">
+                    <div class="icon">
+                        <img src="images/icons/icon-1.png" alt="icon">
+                    </div>
+                    <div class="item-info">
+                        <h4>
+                            <a href="#">Different Locations</a>
+                        </h4>
+                        <p>A wide variety of destinations</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="images/icons/icon-2.png" alt="icon">
+                    </div>
+                    <div class="item-info">
+                        <h4>
+                            <a href="#">Free Transfer</a>
+                        </h4>
+                        <p>We offer free transfer to Divers</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="images/icons/icon-3.png" alt="icon">
+                    </div>
+                    <div class="item-info">
+                        <h4>
+                            <a href="#">Online Payments</a>
+                        </h4>
+                        <p>Pay for any diving tour online</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="container">
+            <h3>Testimonials</h3>
+            <div class="carousel">
+                <div class="slider">
+                    <div class="slider-info">
+                        <p class="slider-text">I had a fantastic weekend at Stoney Cove with your team. Great people who made my wife (Lisa) and I feel very welcome. Thanks for all your help and support with the diving!</p>
+                        <p class="slider-text">It was a great first time dive, the team was very friendly and attentive I will have no hesitation going again and recommending you to all my friends and colleagues</p>
+                        <p class="slider-text">What a fantastic weekend spent with the amazingly friendly team at Divers! You made us feel very welcome and you all were amazing. Thank you!</p>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slide-item">
+                        <div class="figure">
+                            <img src="images/slider/1.jpg" alt="" width="87" height="87">
+                        </div>
+                        <div class="author">Patrick Goodman</div>
+                        <div class="status">Client</div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="figure">
+                            <img src="images/slider/2.jpg" alt="" width="87" height="87">
+                        </div>
+                        <div class="author">Kate Smith</div>
+                        <div class="status">Client</div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="figure">
+                            <img src="images/slider/3.jpg" alt="" width="87" height="87">
+                        </div>
+                        <div class="author">Sam Wilson</div>
+                        <div class="status">Client</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="container">
+            <h3>Gallery</h3>
+            <div class="wrapper">
+                <div class="gallery-item">
+                    <div class="gallery-img"><img src="images/gallery/1.jpg" alt="img"></div>
+                    <div class="gallery-caption">
+                        <div class="caption-info">
+                            <h5 class="title"><a href="#">Barracuda Point</a></h5>
+                            <div class="gallery-btn">
+                                <div class="gallery-search-btn">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"><img src="images/gallery/2.jpg" alt="img"></div>
+                    <div class="gallery-caption">
+                        <div class="caption-info">
+                            <h5 class="title"><a href="#">Blue Corner Wall</a></h5>
+                            <div class="gallery-btn">
+                                <div class="gallery-search-btn">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"><img src="images/gallery/3.jpg" alt="img"></div>
+                    <div class="gallery-caption">
+                        <div class="caption-info">
+                            <h5 class="title"><a href="#">The Yongala</a></h5>
+                            <div class="gallery-btn">
+                                <div class="gallery-search-btn">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"><img src="images/gallery/4.jpg" alt="img"></div>
+                    <div class="gallery-caption">
+                        <div class="caption-info">
+                            <h5 class="title"><a href="#">Thistlegorm</a></h5>
+                            <div class="gallery-btn">
+                                <div class="gallery-search-btn">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"><img src="images/gallery/5.jpg" alt="img"></div>
+                    <div class="gallery-caption">
+                        <div class="caption-info">
+                            <h5 class="title"><a href="#">Shark and Yolanda Reef</a></h5>
+                            <div class="gallery-btn">
+                                <div class="gallery-search-btn">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"><img src="images/gallery/6.jpg" alt="img"></div>
+                    <div class="gallery-caption">
+                        <div class="caption-info">
+                            <h5 class="title"><a href="#">Manta Ray Night Dive</a></h5>
+                            <div class="gallery-btn">
+                                <div class="gallery-search-btn">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"><img src="images/gallery/7.jpg" alt="img"></div>
+                    <div class="gallery-caption">
+                        <div class="caption-info">
+                            <h5 class="title"><a href="#">Great Blue Hole</a></h5>
+                            <div class="gallery-btn">
+                                <div class="gallery-search-btn">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="subscr-text">
+                    <h4>Newsletter</h4>
+                    <h5>Subscribe to our newsletter</h5>
+                </div>
+                <div class="subscr-form">
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Enter your e-mail address">
+                        <button class="b1 b2">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="instructors">
+        <div class="container">
+            <h3>Instructors</h3>
+            <div class="instructor-block">
+                <div class="instructor-item">
+                    <div class="images"><a href="#"><img src="images/instroctors/1.jpg" alt="img"></a></div>
+                    <div class="info">
+                        <h5><a href="#">Peter Martinez</a></h5>
+                        <p>Peter is PADI Course Director and our company’s Founder</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                        <a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+                <div class="instructor-item">
+                    <div class="images"><a href=""><img src="images/instroctors/2.jpg" alt="img"></a></div>
+                    <div class="info">
+                        <h5><a href="#">Jane McMillan</a></h5>
+                        <p>Jane is Divers’s Specialty Instructor Trainer who joined us in 2010.</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                        <a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+                <div class="instructor-item">
+                    <div class="images"><a href=""><img src="images/instroctors/3.jpg" alt="img"></a></div>
+                    <div class="info">
+                        <h5><a href="#">John Smith</a></h5>
+                        <p>John has been working with us since day one as PADI Divemaster.</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                        <a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+                <div class="instructor-item">
+                    <div class="images"><a href=""><img src="images/instroctors/4.jpg" alt="img"></a></div>
+                    <div class="info">
+                        <h5><a href="#">Sam Williams</a></h5>
+                        <p>Sam is Divers’s PADI Open Water Scuba Instructor.</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                        <a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="container">
+            <h3>Our Blog</h3>
+            <div class="blog-block">
+                <div class="blog-item">
+                    <div class="blog-img"><a href="#"><img src="images/blog/1.jpg" alt="img"></a></div>
+                    <div class="blog-info">
+                        <span>August 9, 2021</span>
+                        <h5><a href="#">New Caledonia: The Lagoon of All Hopes</a></h5>
+                        <p>As we dived for the very first time in the lagoon of New Caledonia, at Duck Island, with only our masks and fins...</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img"><a href="#"><img src="images/blog/2.jpg" alt="img"></a></div>
+                    <div class="blog-info">
+                        <span>August 9, 2021</span>
+                        <h5><a href="#">Scuba Diving in Okinawa: A First-timer Guide</a></h5>
+                        <p>It is one of these places where it is not so straightforward to organize a scuba diving trip. There are so many...</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img"><a href="#"><img src="images/blog/3.jpg" alt="img"></a></div>
+                    <div class="blog-info">
+                        <span>August 9, 2021</span>
+                        <h5><a href="#">Shore Diving in Maui & Big Island</a></h5>
+                        <p>The Hawaiian Archipelago is full of bucket list dives with exciting adventures such as diving in the crater...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="foot-block">
+                <div class="foot-gallery">
+                    <h4>Gallery</h4>
+                    <div class="foot-wrapper">
+                        <div class="foot-item"><img src="images/foot-gallery/1.jpg" alt="img"></div>
+                        <div class="foot-item"><img src="images/foot-gallery/2.jpg" alt="img"></div>
+                        <div class="foot-item"><img src="images/foot-gallery/3.jpg" alt="img"></div>
+                        <div class="foot-item"><img src="images/foot-gallery/4.jpg" alt="img"></div>
+                        <div class="foot-item"><img src="images/foot-gallery/5.jpg" alt="img"></div>
+                        <div class="foot-item"><img src="images/foot-gallery/6.jpg" alt="img"></div>
+                    </div>
+                </div>
+                <div class="foot-menu">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li class="foot-menu-item"><a href="#">About Us</a></li>
+                        <li class="foot-menu-item"><a href="#">What We Offer</a></li>
+                        <li class="foot-menu-item"><a href="#">FAQ</a></li>
+                        <li class="foot-menu-item"><a href="#">Instructors</a></li>
+                        <li class="foot-menu-item"><a href="#">Contact Us</a></li>
+                        <li class="foot-menu-item"><a href="#">Blog</a></li>
+                        <li class="foot-menu-item"><a href="#">Gallery</a></li>
+                        <li class="foot-menu-item"><a href="#">Pricing</a></li>
+                      </ul>
+                </div>
+                <div class="contacts">
+                    <h4>Get in touch</h4>
+                    <div class="contacts-item">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="contact-info">
+                            <a href="#">523 Sylvan Ave, 5th Floor<br> Mountain View, CA 94041 USA</a>
+                        </div>
+                    </div>
+                    <div class="contacts-item">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <a href="tel:+1 (844) 123 456 78">+1 (844) 123 456 78</a>
+                        </div>
+                    </div>
+                    <div class="contacts-item">
+                        <div class="icon">
+                            <i class="fa fa-envelope-square"></i>
+                        </div>
+                        <div class="contact-info">
+                            <a href="email:info@demolink.org">info@demolink.org</a>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                        <a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-skype"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
